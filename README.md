@@ -41,7 +41,7 @@ npm install
 3. Run the developtment Server
 
 ```
-npm run dev
+npm start
 ```
 
 4. Access the application
