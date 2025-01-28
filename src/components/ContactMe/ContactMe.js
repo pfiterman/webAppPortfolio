@@ -22,7 +22,7 @@ function ContactMe() {
         </Heading>
         <Span type="center-lineheight-26 color-white">
           Whether you have questions, collaboration ideas, or just want to say
-          hi, feel free to reach out. Use the form below or connect with me
+          hi, feel free to reach out. Hit the buttom below or connect with me
           through my social media channels.
         </Span>
         <Button
