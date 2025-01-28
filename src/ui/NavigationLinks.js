@@ -1,12 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 
-import {
-  HiHome,
-  HiChatBubbleLeftEllipsis,
-  HiLightBulb,
-  HiUserGroup,
-} from "react-icons/hi2";
+import { HiHome, HiChatBubbleLeftEllipsis, HiLightBulb } from "react-icons/hi2";
 
 import NavigationLink from "./NavigationLink";
 

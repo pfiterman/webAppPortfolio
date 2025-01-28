@@ -38,6 +38,7 @@ function MobileMenu({ close, onCloseMobileMenu }) {
             navigate("/contactme");
             onCloseMobileMenu();
           }}
+          className="button-secondary button button-md"
         >
           Get in touch
         </Button>
