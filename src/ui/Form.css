@@ -1,0 +1,8 @@
+.form {
+  padding: 2.4rem 4 rem;
+  background-color: var(--dl-color-scheme-lightgrey);
+  /* border: 1px solid var(--dl-color-scheme-black); */
+  border-radius: var(--dl-radius-radius-radius8);
+  overflow: hidden;
+  font-size: 1.2rem;
+}

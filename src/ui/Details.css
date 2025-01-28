@@ -1,0 +1,46 @@
+.details-container {
+  width: 100%;
+}
+
+.details-container > p:last-child {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+.details-description {
+  color: var(--dl-color-scheme-black80);
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.details-text {
+  font-size: 16px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 6px; /* space between icon and text */
+}
+
+.details-text a:hover {
+  text-decoration: underline;
+}
+
+.details-resolution-icon {
+  margin: 0px 2px;
+  vertical-align: middle;
+}
+
+.details-resolution-icon:hover {
+  cursor: pointer;
+}
+
+.with-margin-bottom {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+@media (max-width: 479px) {
+  .details-description {
+    font-size: 14px;
+  }
+}

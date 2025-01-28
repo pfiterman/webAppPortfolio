@@ -1,0 +1,212 @@
+.span-text {
+  margin: 0 3px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.span-text > a:link {
+  text-decoration: underline;
+}
+
+.span-selector {
+  cursor: pointer;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  line-height: 21px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.span-selector-btn:hover {
+  box-shadow: inset 0px -2px 0px #4245e6;
+}
+
+.span-selector-btn:active {
+  box-shadow: inset 0px -2px 0px #4245e6;
+}
+
+.span-center {
+  align-self: center;
+}
+
+.span-normal-brown {
+  color: var(--dl-color-scheme-brown);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.span-card-title {
+  color: var(--dl-color-scheme-darkblue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+.span-card-text {
+  color: var(--dl-color-scheme-darkblue);
+  font-size: 14px;
+  text-transform: none;
+}
+
+.span-normal-brown-upper {
+  color: var(--dl-color-scheme-brown);
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.span-center-bottom-black {
+  color: var(--dl-color-scheme-black80);
+  text-align: center;
+  line-height: 26px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+.span-card-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.span-card-description {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+.span-underline {
+  text-decoration: underline;
+}
+
+.span-footer-text-white {
+  color: var(--dl-color-scheme-white);
+  max-width: 350px;
+  margin-bottom: 60px;
+  text-transform: none;
+}
+
+.span-footer-social-media-text {
+  color: var(--dl-color-scheme-white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+
+.span-footer-links-container-title {
+  color: var(--dl-color-scheme-white);
+  cursor: default;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+
+.span-footer-link {
+  color: var(--dl-color-scheme-white);
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.span-footer-link:hover {
+  color: var(--dl-color-scheme-brown);
+}
+
+.span-footer-text-white80 {
+  color: var(--dl-color-scheme-white80);
+  font-size: 14px;
+  text-transform: none;
+}
+
+.span-footer-text-white80 > a:link {
+  text-decoration: underline;
+}
+
+.span-our-process-step-container-title {
+  color: var(--dl-color-scheme-white);
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+.span-our-process-step-container-description {
+  color: var(--dl-color-scheme-white80);
+}
+
+.normal-bold-700 {
+  font-weight: 700;
+}
+
+.normal-center-700 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.normal-700 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.center-lineheight-26 {
+  text-align: center;
+  line-height: 26px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+.normal-center-black {
+  color: var(--dl-color-scheme-black);
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.44;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+.margin-right-30 {
+  margin-right: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.color-white {
+  color: var(--dl-color-scheme-white);
+}
+
+.color-brown {
+  color: var(--dl-color-scheme-brown);
+}
+
+@media (max-width: 479px) {
+  .span-card-title {
+    text-align: center;
+  }
+  .span-card-text {
+    text-align: center;
+  }
+  .span-footer-links-container-title {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}

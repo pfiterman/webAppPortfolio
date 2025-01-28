@@ -1,0 +1,22 @@
+.navigation-links-text {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navigation-links-text:hover {
+  color: var(--dl-color-scheme-brown);
+}
+.navigation-links-nav > .navigation-links-text:not(:first-child) {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 41px;
+}
+.navigation-links-nav > .navigation-links-text:not(:first-child):hover {
+  color: var(--dl-color-scheme-brown);
+}
+.navigation-links-item {
+  gap: 6px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}

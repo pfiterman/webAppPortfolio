@@ -1,0 +1,17 @@
+.navigation-icon2 {
+  width: 24px;
+  height: 24px;
+}
+@media (max-width: 991px) {
+  .navigation-nav {
+    display: none;
+  }
+  .navigation-burger-menu {
+    display: flex;
+  }
+}
+@media (max-width: 767px) {
+  .navigation-max-width {
+    padding: var(--dl-space-space-unit);
+  }
+}

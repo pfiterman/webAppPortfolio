@@ -1,0 +1,23 @@
+.header-text-title-description {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.header-text {
+  color: var(--dl-color-scheme-black80);
+  line-height: 26px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.center {
+  text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+.header-margin-top {
+  margin-top: 80px;
+}
+@media (max-width: 479px) {
+  .header-margin-top {
+    margin-top: 60px;
+  }
+}
