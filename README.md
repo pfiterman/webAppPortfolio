@@ -2,7 +2,7 @@
 
 A portfolio responsive web application built with ReactJS, showcasing a curated collection of projects developed throughout my coding career.
 
-![Screenshot of webAppWildOasisHotel in dark mode](../public/webAppPortfolio.png)
+![Screenshot of webAppPortfolio](./public/webAppPortfolio.png)
 
 ## 🌟 Features
 
