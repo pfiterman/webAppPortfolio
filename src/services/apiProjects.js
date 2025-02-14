@@ -26,3 +26,16 @@ export async function getProject(projectId) {
   }
   return data;
 }
+
+export async function getProjectTechnologies(projectId) {
+  const { data, error } = await supabase
+    .from("projects_technologies")
+    .select("*, technologies(*)")
+    .eq("projectId", projectId);
+
+  if (error) {
+    throw new Error("Booking not found");
+  }
+
+  return data;
+}

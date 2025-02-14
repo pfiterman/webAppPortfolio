@@ -74,6 +74,10 @@
   width: 16px;
   height: 16px;
 }
+.tech-stack-icon {
+  width: 16px;
+  height: 16px;
+}
 
 @media (max-width: 767px) {
   .home-image-top-middle {

@@ -2,12 +2,14 @@ import React from "react";
 import { useProject } from "../../hooks/useProject";
 import { NavLink, useNavigate } from "react-router-dom";
 
+import PortfolioProjectTechStack from "./PortfolioProjectTechStack";
+import PortfolioProjectDetail from "./PortfolioProjectDetail";
+
 import Container from "../../ui/Container";
 import Header from "../../ui/Header";
 import Spinner from "../../ui/Spinner";
 import Empty from "../../ui/Empty";
 import Image from "../../ui/Image";
-import Details from "../../ui/Details";
 import Button from "../../ui/Button";
 
 function PortfolioProjectDetails() {
@@ -45,13 +47,14 @@ function PortfolioProjectDetails() {
             {title}
           </Header>
           <Container type="image-container">{showImage}</Container>
-          <Details
+          <PortfolioProjectDetail
             description={description}
             gitHubURL={githubURL}
             dateStart={startDate}
             dateEnd={endDate}
             isResponsive={isResponsive}
           />
+          <PortfolioProjectTechStack />
           <Button
             onclickButton={() => navigate(-1)}
             className="button-secondary button button-md"
