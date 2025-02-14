@@ -1,12 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { useProjectTechnologies } from "../../hooks/useProjectTechnologies";
 
 import Spinner from "../../ui/Spinner";
 import Details from "../../ui/Details";
 import Image from "../../ui/Image";
-import Span from "../../ui/Span";
 
 function PortfolioProjectTechStack() {
   const { isLoading, projectTechnologies } = useProjectTechnologies();
@@ -15,18 +14,15 @@ function PortfolioProjectTechStack() {
   if (!projectTechnologies || projectTechnologies.length === 0) return null;
 
   return (
-    <Details description="TechStack: ">
+    <Details description="Tech Stack: ">
       {projectTechnologies.map((techtack) => {
         const { technologies } = techtack;
         return (
           <p key={technologies.id} className="details-text">
             <Image src={technologies.imgURL} className="tech-stack-icon" />
-            <Span>
-              <NavLink to={technologies.officialURL} target="_blank">
-                {technologies.name}
-              </NavLink>
-            </Span>
-            -<Span>{technologies.description}</Span>
+            <Link to={technologies.officialURL} target="_blank">
+              {technologies.name}
+            </Link>
           </p>
         );
       })}
