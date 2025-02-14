@@ -35,8 +35,12 @@
   cursor: pointer;
 }
 
-.with-margin-bottom {
+.with-margin-bottom-twounits {
   margin-bottom: var(--dl-space-space-twounits);
+}
+
+.with-margin-bottom {
+  margin-bottom: var(--dl-space-space-unit);
 }
 
 @media (max-width: 479px) {

@@ -149,6 +149,10 @@
   font-weight: 700;
 }
 
+.normal-bold-900 {
+  font-weight: 900;
+}
+
 .normal-center-700 {
   font-style: normal;
   text-align: center;
@@ -197,6 +201,10 @@
 
 .color-brown {
   color: var(--dl-color-scheme-brown);
+}
+
+.color-black {
+  color: var(--dl-color-scheme-black);
 }
 
 @media (max-width: 479px) {
